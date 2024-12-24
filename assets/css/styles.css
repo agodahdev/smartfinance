@@ -83,6 +83,23 @@ button:hover {
     background: #45a049;
 }
 
+/* New Progress Bar Styles */
+.progress-bar {
+    width: 100%;
+    background-color: #ddd; /* Light gray background */
+    height: 10px;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+.progress-fill {
+    width: 60%; /* Placeholder width for progress */
+    background-color: #4caf50; /* Green progress bar */
+    height: 100%;
+    border-radius: 5px;
+}
+
+
 /* List styles */
 ul {
     list-style-type: disc;
