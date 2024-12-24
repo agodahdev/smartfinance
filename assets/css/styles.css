@@ -60,7 +60,6 @@ form {
 
 label {
     font-weight: bold;
-
 }
 
 input[type="number"] {
@@ -82,4 +81,64 @@ button {
 
 button:hover {
     background: #45a049;
+}
+
+/* List styles */
+ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+/* Responsive Styles for Small screens */
+@media (max-width: 768px) {
+    .main-nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+
+}
+
+/* Responsive styles for Medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .main-nav ul{
+        gap: 1.5rem;
+    }
+
+    section {
+        margin: 1.5rem auto;
+        max-width: 800px;
+    }
+}
+
+/* Responsive Styles for Larger screens */
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.2 rem;
+    }
+
+    .main-nav ul {
+        gap: 2rem;
+    }
+
+    section {
+        margin: 2rem auto;
+        max-width: 1200px;
+    }
+
+    button {
+        font-size: 1rem;
+    }
 }
