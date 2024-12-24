@@ -8,6 +8,58 @@
 <body>
 
     <main>
+        <!-- Introductory section -->
+        <section id-="intro">
+            <h2> Welcome to Your SmartFinance Tracker</h2>
+            <p>Track your expenses, calculate budgets, and get tips to improve your financial health.</p>
+
+        </section>
+
+        <!-- Budgeting calculator section -->
+        <section id="budgeting">
+            <h2>Budgeting Calculator</h2>
+            <form action="Budget-form">
+
+                <!-- Input field for monthly income -->
+                <label for="income">Monthly Income (£):</label>
+                <input type="number" id="income" name="expenses" required>
+
+                <!-- Input field for monthly expenses -->
+                 <label for="expenses">Monthly Expenses (£):</label>
+                 <input type="number" id="expenses" name="expenses" required>
+
+                <!-- Button to trigger budget calculations -->
+                 <button type="button" id="calculate">Calculate Budget</button>
+            </form>
+            <!-- Placeholder for displaying budget calculation results -->
+             <p id="budget-result"></p>
+        </section>
+
+        <!-- Savings tracker section-->
+        <section id="savings">
+            <h2>Savings Tracker</h2>
+            <form id="savings-form">
+
+                <!-- Input field for savings goal -->
+                <label for="goal">Savings Goal (£):</label>
+                <input type="number" id="goal" name="saved" required>
+
+                <!-- Input field for amount saved so far -->
+                 <label for="saved">Amount Saved (£):</label>
+                 <input type="number" id="saved" name="saved" required>
+
+                 <!-- Button to track savings progress -->
+                  <button type="button" id="tracker">Track Savings</button>
+            </form>
+            <!-- Placeholder for displaying savings tracking results-->
+                <p id="savings-result"></p>
+        </section>
+
+
+        <section>
+            <h2>Finance Tips</h2>
+
+        </section>
 
 
 
@@ -15,7 +67,7 @@
     
 
     <footer>
-        
+
     </footer>
 </body>
 </html>
