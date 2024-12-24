@@ -144,6 +144,45 @@ ul {
     padding: 0.5rem;
 }
 
+/* Testimonials */
+#testimonials {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial-card {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f4f4f9;
+    border-left: 4px solid #4caf50;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+/* Static Chart*/
+.chart {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    justify-content: center;
+    height: 200px;
+    margin-top: 2rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.bar {
+    width: 50px;
+    background: #4caf50;
+    text-align: center;
+    color: white;
+    padding-top: 0.5rem;
+    border-radius: 5px 5px 0 0;
+}
 
 /* Footer */
 footer {
