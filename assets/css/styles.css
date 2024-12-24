@@ -136,6 +136,15 @@ ul {
     margin-left: 2rem;
 }
 
+/* Tip sections*/
+#tips ul li:hover {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+
 /* Footer */
 footer {
     background: #333;
